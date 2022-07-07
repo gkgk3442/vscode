@@ -48,7 +48,7 @@
 - Highlight Matching Tag
 - Make Apps Theme
 - Material Icon Theme
-- Material Theme
-- Material Theme Icons
-- One Dark Pro
+!- Material Theme
+!- Material Theme Icons
+!- One Dark Pro
 
