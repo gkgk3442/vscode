@@ -1,6 +1,6 @@
 # 확장
 ## default
-- Remote -WSL
+- Remote Development
 
 ## java & spring
 - Extension Pack for Java
@@ -46,9 +46,5 @@
 - CSS Peek
 - IntelliCode Completions
 - Highlight Matching Tag
-- Make Apps Theme
 - Material Icon Theme
-!- Material Theme
-!- Material Theme Icons
-!- One Dark Pro
-
+- kite
