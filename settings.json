@@ -10,7 +10,6 @@
   },
 
   "workbench.editor.enablePreview": true,
-  "workbench.colorTheme": "Make Apps Theme",
   "workbench.iconTheme": "material-icon-theme",
 
   // git
@@ -43,13 +42,14 @@
   },
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   // java
-  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\gkgk3\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms500m -javaagent:\"c:\\Users\\ShinChungMu\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
   "java.project.importOnFirstTimeStartup": "automatic",
   "boot-java.support-spring-xml-config.on": true,
   "boot-java.scan-java-test-sources.on": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
-  }
+  },
+  "kite.showWelcomeNotificationOnStartup": false,
+  "terminal.integrated.fontFamily": "'MesloLGS NF'"
 }
-
