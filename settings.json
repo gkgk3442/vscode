@@ -1,20 +1,28 @@
 {
-  "explorer.confirmDelete": false,
   "files.exclude": {
     "**/dist": true,
     "**/node_modules": true,
+    "**/.gradle": true,
+    "**/gradle": true,
+    "**/bin": true,
+    // "**/build": true,
     "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
   },
-
-  "workbench.editor.enablePreview": true,
+  // "extensions.autoUpdate": true,
+  // "extensions.autoCheckUpdates": true,
+  // "terminal.integrated.fontFamily": "'MesloLGS NF'",
   "workbench.iconTheme": "material-icon-theme",
-
+  // =================================================
   // git
   "git.autofetch": true,
+  // =================================================
   // eslint
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
   "eslint.validate": [
     "vue",
     "javascript",
@@ -27,8 +35,9 @@
       "mode": "auto"
     }
   ],
+  // =================================================
   // formatter
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggestSelection": "first",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -37,19 +46,48 @@
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-  "eslint.codeAction.showDocumentation": {
-    "enable": true
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  // java
-  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms500m -javaagent:\"c:\\Users\\ShinChungMu\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.java$",
+        "cmd": "google-java-format --replace ${file}"
+      }
+    ]
+  },
+
+  // =================================================
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -javaagent:\"%userprofile%\\.vscode\\extensions\\vscjava.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+  "java.jdt.ls.java.home": "C:\\zulu\\zulu17.36.13-ca-jdk17.0.4-win_x64",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": EDIT,
+      "default": false
+    },
+    {
+      "name": "JavaSE-11",
+      "path": EDIT,
+      "default": false
+    },
+    {
+      "name": "JavaSE-17",
+      "path": EDIT,
+      "default": true
+    }
+  ],
+  "spring-boot.ls.java.home": EDIT,
+  "spring-boot.ls.logfile": "%userprofile%\\log\\bootls.log",
+
   "java.project.importOnFirstTimeStartup": "automatic",
-  "boot-java.support-spring-xml-config.on": true,
-  "boot-java.scan-java-test-sources.on": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "kite.showWelcomeNotificationOnStartup": false,
-  "terminal.integrated.fontFamily": "'MesloLGS NF'"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.format.settings.profile": "GoogleStyle",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
