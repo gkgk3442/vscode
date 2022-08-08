@@ -36,15 +36,18 @@
 > Vue 3 Support - All In One  
 > Vue VSCode Snippets  
 > ESLint  
-> Vue Language Features (Volar)  
+> Vue Language Features (Volar)
 
+- TypeScript Vue Plugin (Volar)
+
+## IntelliCode
+- IntelliCode
+- IntelliCode Completions
+- IntelliCode Insiders
+- IntelliCode API Usage Examples
+- 
 ## other
 - Korean(사용법) Language Pack for Visual Studio Code
-- Bootstrap 5 Quick Snippets
-- Cloudfoundry Manifest YML Support
-- Concourse CI Pipeline Editor
 - CSS Peek
-- IntelliCode Completions
 - Highlight Matching Tag
 - Material Icon Theme
-- kite
