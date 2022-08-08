@@ -51,3 +51,5 @@
 - CSS Peek
 - Highlight Matching Tag
 - Material Icon Theme
+- RunOnSave
+- google-java-format
