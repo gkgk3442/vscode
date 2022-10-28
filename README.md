@@ -22,6 +22,8 @@
 
 - Lombok Annotations Support for VS Code
 
+- emeraldwalk.RunOnSave
+
 ## vue
 - Vue Volar extension Pack
 > JavaScript (ES6) code snippets  
@@ -45,11 +47,24 @@
 - IntelliCode Completions
 - IntelliCode Insiders
 - IntelliCode API Usage Examples
-- 
+
 ## other
 - Korean(사용법) Language Pack for Visual Studio Code
 - CSS Peek
 - Highlight Matching Tag
 - Material Icon Theme
-- RunOnSave
+
 - google-java-format
+> Homebrew 설치 필요  
+> brew install google-java-format  
+> emeraldwalk.RunOnSave 확장 필요  
+```json
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.java$",
+        "cmd": "google-java-format --replace ${file}"
+      }
+    ]
+  }
+```
