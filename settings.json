@@ -1,25 +1,22 @@
 {
   "files.exclude": {
-    "**/dist": true,
+    // "**/dist": true,
     "**/node_modules": true,
-    "**/.gradle": true,
-    "**/gradle": true,
-    "**/bin": true,
+    "**/.gradle": false,
+    // "**/gradle": true,
+    // "**/bin": true,
     // "**/build": true,
-    "**/.classpath": true,
+    // "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
   },
   // "extensions.autoUpdate": true,
   // "extensions.autoCheckUpdates": true,
-  // "terminal.integrated.fontFamily": "'MesloLGS NF'",
   "workbench.iconTheme": "material-icon-theme",
-  // =================================================
-  // git
+
   "git.autofetch": true,
-  // =================================================
-  // eslint
+
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
@@ -35,9 +32,6 @@
       "mode": "auto"
     }
   ],
-  // =================================================
-  // formatter
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggestSelection": "first",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -46,48 +40,68 @@
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": "\\.java$",
-        "cmd": "google-java-format --replace ${file}"
-      }
-    ]
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // =================================================
-  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -javaagent:\"%userprofile%\\.vscode\\extensions\\vscjava.vscode-lombok-1.0.1\\server\\lombok.jar\"",
-  "java.jdt.ls.java.home": "C:\\zulu\\zulu17.36.13-ca-jdk17.0.4-win_x64",
-  "java.configuration.runtimes": [
-    {
-      "name": "JavaSE-1.8",
-      "path": EDIT,
-      "default": false
-    },
-    {
-      "name": "JavaSE-11",
-      "path": EDIT,
-      "default": false
-    },
-    {
-      "name": "JavaSE-17",
-      "path": EDIT,
-      "default": true
-    }
-  ],
-  "spring-boot.ls.java.home": EDIT,
-  "spring-boot.ls.logfile": "%userprofile%\\log\\bootls.log",
+  "Prettier-SQL.keywordCase": "upper",
+  "Prettier-SQL.SQLFlavourOverride": "mariadb",
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
 
   "java.project.importOnFirstTimeStartup": "automatic",
   "java.configuration.updateBuildConfiguration": "automatic",
-  "java.format.settings.profile": "GoogleStyle",
+  "java.format.enabled": true,
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
 
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms1G",
+  // "java.jdt.ls.java.home": EDIT,
+  // "java.configuration.runtimes": [
+  //   {
+  //     "name": "JavaSE-1.8",
+  //     "path": EDIT,
+  //     "default": false
+  //   },
+  //   {
+  //     "name": "JavaSE-11",
+  //     "path": EDIT,
+  //     "default": false
+  //   },
+  //   {
+  //     "name": "JavaSE-17",
+  //     "path": EDIT,
+  //     "default": true
+  //   }
+  // ],
+  // "spring-boot.ls.java.home": EDIT,
+  "spring-boot.ls.logfile": "%userprofile%/log/bootls.log",
+
+  "codesnap.containerPadding": "1px",
+  "codesnap.realLineNumbers": true,
+  "codesnap.showWindowTitle": true,
+  "codesnap.transparentBackground": true
 }
