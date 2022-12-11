@@ -1,6 +1,9 @@
 # 확장
 ## default
 - Remote Development
+> WSL
+> Dev Containers
+> Remote - SSH
 
 ## java & spring
 - Extension Pack for Java
@@ -50,4 +53,12 @@
 - Korean(사용법) Language Pack for Visual Studio Code
 - CSS Peek
 - Highlight Matching Tag
+- TODO Highlight
 - Material Icon Theme
+- Camel Case Navigation
+- CodeSnap
+- Git Graph
+- Git History
+- GitLens
+- import Cost
+- Prettier SQL VSCode
