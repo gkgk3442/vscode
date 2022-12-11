@@ -5,7 +5,7 @@
     "**/.gradle": false,
     // "**/gradle": true,
     // "**/bin": true,
-    // "**/build": true,
+    "**/build": true,
     // "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
@@ -36,6 +36,8 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
+  // "editor.maxTokenizationLineLength": 100000,
+  // "editor.stopRenderingLineAfter": -1,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
@@ -78,30 +80,12 @@
   "java.format.enabled": true,
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
 
-  // "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms1G",
-  // "java.jdt.ls.java.home": EDIT,
-  // "java.configuration.runtimes": [
-  //   {
-  //     "name": "JavaSE-1.8",
-  //     "path": EDIT,
-  //     "default": false
-  //   },
-  //   {
-  //     "name": "JavaSE-11",
-  //     "path": EDIT,
-  //     "default": false
-  //   },
-  //   {
-  //     "name": "JavaSE-17",
-  //     "path": EDIT,
-  //     "default": true
-  //   }
-  // ],
-  // "spring-boot.ls.java.home": EDIT,
   "spring-boot.ls.logfile": "%userprofile%/log/bootls.log",
 
   "codesnap.containerPadding": "1px",
   "codesnap.realLineNumbers": true,
   "codesnap.showWindowTitle": true,
-  "codesnap.transparentBackground": true
+  "codesnap.transparentBackground": true,
+  "boot-java.rewrite.reconcile": true,
+  "editor.stickyScroll.enabled": true
 }
