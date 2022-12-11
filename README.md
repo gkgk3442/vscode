@@ -24,6 +24,7 @@
 > Gradle for Java  
 
 - Lombok Annotations Support for VS Code
+- Prettier SQL VSCode
 
 ## vue
 - Vue Volar extension Pack
@@ -51,14 +52,13 @@
 
 ## other
 - Korean(사용법) Language Pack for Visual Studio Code
+- Git Graph
+- Git History
+- GitLens
 - CSS Peek
 - Highlight Matching Tag
 - TODO Highlight
 - Material Icon Theme
 - Camel Case Navigation
 - CodeSnap
-- Git Graph
-- Git History
-- GitLens
 - import Cost
-- Prettier SQL VSCode
